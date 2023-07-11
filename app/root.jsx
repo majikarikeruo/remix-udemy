@@ -10,7 +10,9 @@ import {
 import styles from "./styles/main.css";
 import MainNavigation from "./components/MainNavigation";
 
-export const links = () => [[{ rel: "stylesheet", href: styles }]];
+export function links() {
+  return [{ rel: "stylesheet", href: styles }];
+}
 
 export default function App() {
   return (
